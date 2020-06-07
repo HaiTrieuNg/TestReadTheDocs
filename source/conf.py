@@ -18,8 +18,8 @@ import sys
 # -- Project information -----------------------------------------------------
 
 project = 'Test'
-copyright = '2020, BeeFi.io'
-author = 'BeeFi'
+copyright = '2020, BeeFi Technologies Inc'
+author = 'BeeFi Technologies Inc'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
