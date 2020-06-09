@@ -7,6 +7,7 @@ ESP-Jumpstart
 
    modules
    Another
+   New Text Document
 
 Indices and tables
 ==================
