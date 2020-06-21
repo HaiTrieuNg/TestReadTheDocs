@@ -241,44 +241,26 @@ example         AT+GMR
 +----------+----------------------------+----------------------------+
 | Example  | AT+UART_CUR?               | AT+UART_CUR=115200,8,1,0,3 |
 +----------+----------------------------+----------------------------+
-| Note     | <baudrate>：UART baud rate |                            |
-|          |                            |                            |
-|          | <databits>：data bits      |                            |
-|          |                            |                            |
-|          | 5： 5-bit data             |                            |
-|          |                            |                            |
-|          | 6： 6-bit data             |                            |
-|          |                            |                            |
-|          | 7： 7-bit data             |                            |
-|          |                            |                            |
-|          | 8： 8-bit data             |                            |
-|          |                            |                            |
-|          | <stopbits>：stop bits      |                            |
-|          |                            |                            |
-|          | 1： 1-bit stop bit         |                            |
-|          |                            |                            |
-|          | 2： 1.5-bit stop bit       |                            |
-|          |                            |                            |
-|          | 3： 2-bit stop bit         |                            |
-|          |                            |                            |
-|          | <parity>：parity bit       |                            |
-|          |                            |                            |
-|          | 0： None                   |                            |
-|          |                            |                            |
-|          | 1： Odd                    |                            |
-|          |                            |                            |
-|          | 2： Even                   |                            |
-|          |                            |                            |
-|          | <flow control>：flow       |                            |
-|          | control                    |                            |
-|          |                            |                            |
-|          | 0：disable                 |                            |
-|          |                            |                            |
-|          | 1：enable RTS              |                            |
-|          |                            |                            |
-|          | 2：enable CTS              |                            |
-|          |                            |                            |
-|          | 3：enable both RTS and CTS |                            |
+| Note     | |<baudrate>：UART baud rate|                            |
+|          | |<databits>：data bits     |                            |
+|          | |5： 5-bit data            |                            |
+|          | |6： 6-bit data            |                            |
+|          | |7： 7-bit data            |                            |
+|          | |8： 8-bit data            |                            |
+|          | |<stopbits>：stop bits     |                            |
+|          | |1： 1-bit stop bit        |                            |
+|          | |2： 1.5-bit stop bit      |                            |
+|          | |3： 2-bit stop bit        |                            |
+|          | |<parity>：parity bit      |                            |
+|          | |0： None                  |                            |
+|          | |1： Odd                   |                            |
+|          | |2： Even                  |                            |
+|          | |<flow control>：flow      |                            |
+|          |              control       |                            |
+|          | |0：disable                |                            |
+|          | |1：enable RTS             |                            |
+|          | |2：enable CTS             |                            |
+|          | |3：enable both RTS and CTS|                            |
 +----------+----------------------------+----------------------------+
 
 2.2.6 AT+UART_DEF - Default UART configuration, save in Flash
