@@ -5,6 +5,7 @@ ESP-Jumpstart
    :maxdepth: 2
    :caption: Contents:
 
+   BFQ4004
    modules
    Another
    New Text Document
