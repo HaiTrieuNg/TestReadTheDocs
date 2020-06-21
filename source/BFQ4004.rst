@@ -270,8 +270,7 @@ example         AT+GMR
 |          |                            |                            |
 |          | AT+UART_DEF?               | AT+UART                    |
 |          |                            | _DEF=<baudrate>,<databits> |
-|          |                            | ,<stopbits>,<parity>,<flow |
-|          |                            | control>                   |
+|          |                            | ,<stopbits>                |
 +==========+============================+============================+
 | Response | +UART                      | OK                         |
 |          | _DEF:<baudrate>,<databits> |                            |
