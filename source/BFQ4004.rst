@@ -228,8 +228,7 @@ example         AT+GMR
 |          |                            |                            |
 |          | AT+UART_CUR?               | AT+UART                    |
 |          |                            | _CUR=<baudrate>,<databits> |
-|          |                            | ,<stopbits>,<parity>,<flow |
-|          |                            | control>                   |
+|          |                            | ,<stopbits>,<parity>       |
 +==========+============================+============================+
 | Response | +UART                      | OK                         |
 |          | _CUR:<baudrate>,<databits> |                            |
