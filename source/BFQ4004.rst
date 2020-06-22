@@ -11,16 +11,6 @@ Date       Version Description
 \                  
 ========== ======= ================================
 
-.. raw:: html
-
-    <font color="blue">This blue text is made with raw html</font>
-    
-Some :red:`red colored text`.
-
-Some :blue:`blue colored text`. Not blue anymore.
-
-Some :big:`big text`.
-
 **Table of Contents**
 
 1 Command Description 1
@@ -110,7 +100,7 @@ Some :red:`red colored text` again!
 
 Notes：
 
-:blue:`1. Not all AT commands support all four variations mentioned above.
+1. Not all AT commands support all four variations mentioned above.
 
 2. Square brackets [ ] designate the default value; it is either not
    required or may not appear.
@@ -121,7 +111,7 @@ Notes：
 4. The default baud rate is 115200
 
 5. AT commands have to be capitalized, and must end with a new line (CR
-   LF)`
+   LF)
 
 2 Basic AT Commands
 ===================
