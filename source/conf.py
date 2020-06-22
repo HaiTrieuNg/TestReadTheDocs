@@ -55,7 +55,7 @@ rst_prolog = """
 html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
-    'style_nav_header_background': 'green',
+    'style_nav_header_background': #be66ff,
 }
 html_logo = 'BeeFi_Logo.png'
 master_doc = 'index'
